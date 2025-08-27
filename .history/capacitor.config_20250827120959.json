@@ -1,0 +1,6 @@
+{
+  "appId": "xyz.chatboxapp.ce",
+  "appName": "Chatbox AI",
+  "webDir": "release/app/dist/renderer",
+  "bundledWebRuntime": false
+}
