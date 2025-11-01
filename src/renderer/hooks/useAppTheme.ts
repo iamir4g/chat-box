@@ -76,7 +76,7 @@ export function getThemeDesign(realTheme: 'light' | 'dark', fontSize: number, la
       // so a smaller fontsize may be appropriate.
       ...(language === 'fa'
         ? {
-            fontFamily: 'Cairo, Arial, sans-serif',
+            fontFamily: 'Vazirmatn, Arial, sans-serif',
           }
         : {}),
       fontSize: (fontSize * 14) / 16,

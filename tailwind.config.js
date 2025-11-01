@@ -4,6 +4,22 @@ module.exports = {
   content: ['./src/renderer/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        sans: [
+          'Vazirmatn',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'Segoe UI',
+          'Roboto',
+          'Oxygen',
+          'Ubuntu',
+          'Cantarell',
+          'Fira Sans',
+          'Droid Sans',
+          'Helvetica Neue',
+          'sans-serif',
+        ],
+      },
       spacing: {
         none: 'var(--chatbox-spacing-none)',
         '3xs': 'var(--chatbox-spacing-3xs)',

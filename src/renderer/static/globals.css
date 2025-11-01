@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    font-family: 'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+      'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+}
+
 :root {
   /* radius */
   --chatbox-radius-none: 0rem;
@@ -72,11 +79,11 @@
 }
 
 /* Dark mode scrollbar */
-[data-mantine-color-scheme="dark"] .katex-display::-webkit-scrollbar-thumb {
+[data-mantine-color-scheme='dark'] .katex-display::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.2);
 }
 
-[data-mantine-color-scheme="dark"] .katex-display:hover::-webkit-scrollbar-thumb {
+[data-mantine-color-scheme='dark'] .katex-display:hover::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.3);
 }
 
